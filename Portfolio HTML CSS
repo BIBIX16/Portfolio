@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sección de Cabecera -->
+    <header>
+        <div class="navbar">
+            <h1>Mi Portafolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección: Sobre Mí -->
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Soy [Tu Nombre], un apasionado estudiante de tecnologías y programación. Actualmente estoy estudiando un grado de Instalaciones de Telecomunicaciones en el Instituto Milani Fontanals en Igualada, Cataluña. Me encanta crear cosas y aprender nuevas tecnologías. En mi tiempo libre, trabajo en proyectos como juegos de Scratch y trabajo con Arduino. ¡Espero que te guste mi portafolio!</p>
+    </section>
+
+    <!-- Sección: Proyectos -->
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+
+        <!-- Proyecto 1: Juego de Pelota (Scratch) -->
+        <div class="proyecto">
+            <h3>Juego de Pelota (Scratch)</h3>
+            <p>Este es un juego que estoy desarrollando en Scratch. El jugador controla una pelota que sigue el puntero y debe evitar obstáculos. El objetivo es sobrevivir el mayor tiempo posible sin chocar con los enemigos.</p>
+            <a href="https://scratch.mit.edu/projects/tu_proyecto" target="_blank">Ver Proyecto en Scratch</a>
+            <img src="ruta/a/tu/imagen.png" alt="Captura de pantalla del juego de pelota">
+        </div>
+
+        <!-- Agregar más proyectos aquí -->
+
+    </section>
+
+    <!-- Sección: Contacto -->  
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme por correo electrónico: <a href="mailto:tu-email@example.com">tu-email@example.com</a></p>
+        <p>O sígueme en mis redes sociales:</p>
+        <ul>
+            <li><a href="https://github.com/tuusuario" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/tuusuario" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
